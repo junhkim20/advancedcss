@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+.helloworld, .test, .byeworld{
+	font-style: italic;
+}
+
+.test h2 {
+	font-family: 'Rubik Bubbles', cursive;
+	color: lightskyblue;
+	padding-left: 15vw;
+}
+
+.helloworld > h1 {
+	font-family: "Tahoma";
+	text-align: center;
+}
+
+a {
+	display: flex;
+	justify-content: space-around;
+	color: lightsalmon;
+	font-size: 10vw;
+	font-family: 'Rampart One', cursive;
+}
+
+a:hover {
+	color: lightgrey;
+}
